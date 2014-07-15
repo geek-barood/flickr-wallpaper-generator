@@ -61,7 +61,11 @@ if __name__ == '__main__':
 		#print l
 		urls = get_urls(l)
 
+<<<<<<< HEAD
 		download_image(urls)
+=======
+		#print download_image(urls)
+>>>>>>> 0290bef848eb6037c8e12c807669f213b0679276
 	else:
 		print "Invalid location! please select one of these locations: " + ', '.join(loc_codes.keys())
 
