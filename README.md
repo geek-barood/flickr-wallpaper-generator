@@ -9,7 +9,12 @@ This only downloads a flickr image based on the current weather conditions and t
 
 2. Flickr api is included and you need to get your own `API_KEY` and `API_SECRET` from [here](https://www.flickr.com/services/apps/create/apply/) and change the values.
 
+### Usage
 
+Run in the terminal using the following code format
+```
+	python main.py <location> 
+```
 #### Notes
 
 I have added only Kolkata, Delhi, Mumbai, Bangalore and Chennai yahoo location codes. You can add your own location codes. 
